@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 
 //const iss = require("./public/js/iss")
-const info = require("./public/js/planets");
+const info = require("./public/js/planetsAPI.js");
 
 const app = express();
 const port = process.env.PORT || "9999";
@@ -15,7 +15,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //page routes
 app.get("/",async(request,response)=>{
-    response.render("index",{title:"Home"});
+    let planetInfo = await info.getPlanetsInfo();
+    response.render("index",{title:"Home",planets:planetInfo});
 });
 app.get("/iss",async(request,response)=>{
     //let isslocation = await iss.getIss();
@@ -24,8 +25,8 @@ app.get("/iss",async(request,response)=>{
 });
 app.get("/planets",async(request,response)=>{
     let infoP = await info.getPlanetsInfo();
-    console.log(infoP);
-    response.render("planets",{title: "Planets"});
+    //console.log(infoP);
+    response.render("planets",{title: "Planets",planets: infoP});
 });
 app.get("/astronomyPic",async(request,response)=>{
     response.render("astronomyPic",{title:"Astronomy Picture"});
