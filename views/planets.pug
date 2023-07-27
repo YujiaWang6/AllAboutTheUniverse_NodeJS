@@ -9,7 +9,7 @@ block main-content
     div#planetContainer
         each planet in planets
             div.planetContainer__eachplanet
-                img(src=planet.imageLink width="300")
+                img(src=planet.imageLink alt=planet.englishName width="300")
                 div.eachplanet__intro 
                     p Name: #{planet.englishName}
                     p

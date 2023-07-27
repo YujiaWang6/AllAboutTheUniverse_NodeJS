@@ -16,6 +16,11 @@ block main-content
         each planet in planets 
             div.planets__eachPlanet
                 a(href="/planets")
-                    img(src=planet.imageLink width="200")
+                    img(src=planet.imageLink alt=planet.englishName width="200")
                     p #{planet.englishName}
+    h2 International Space Station(ISS)
     div#iss 
+        img(src="http://images-assets.nasa.gov/image/9802669/9802669~orig.jpg" alt="image of international space station" width="400")
+        div#iss__info
+            p Are you curious about the International Space Station's (ISS) location as it orbits high above our planet? The ISS, a marvel of human engineering, orbits the Earth at an incredible speed, making multiple trips around the globe every day. But how can we keep track of its exact position in the vastness of space?
+            a(href="/iss" id="iss__info__Button") Finding out ISS
