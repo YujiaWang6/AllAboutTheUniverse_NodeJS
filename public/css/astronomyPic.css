@@ -1,0 +1,8 @@
+form{
+    margin: 1rem;
+}
+#apod{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}

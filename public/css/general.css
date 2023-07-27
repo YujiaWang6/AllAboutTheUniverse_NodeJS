@@ -1,0 +1,51 @@
+/*--General--*/
+html{
+    background-color: black;
+    color: white;
+    margin:0;
+}
+body{
+    margin:0;
+}
+.siteNameNav{
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 0 1rem 0;
+}
+
+.nav__Container a{
+    text-decoration: none;
+}
+.nav__Container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:4rem 4rem 0 4rem;
+    margin:0;
+
+}
+.nav__Container li{
+    flex:1;
+
+}
+.nav__Container li a{
+    color: white;
+}
+.siteName{
+    margin:0;
+    background-position: bottom;
+    padding:4rem 4rem 0 4rem;
+    background-size: 100%;
+    flex-grow: 1;
+}
+.nav{
+    flex-grow: 6;
+
+}
+#siteName__link{
+    text-decoration: none;
+    color:white;
+}
+
