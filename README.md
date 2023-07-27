@@ -19,4 +19,4 @@ The third function allows users to explore basic information about the planets i
 5. Open the website on browser: `http://localhost:9999`
 
 ## API lists
-1. NASA APOD API: `https://api.nasa.gov/`
+* [NASA APOD API](https://api.nasa.gov/)
