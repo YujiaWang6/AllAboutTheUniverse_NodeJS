@@ -47,16 +47,15 @@ function pageReady(){
     dateBtn.onclick = getUserDate;
     function getUserDate(){
         apodDate=userDate.value;
-        //console.log(apodDate);
+        console.log(apodDate);
         apodUrl = "https://api.nasa.gov/planetary/apod?api_key="+apodKEY+"&date="+apodDate;
-        //console.log(apodUrl);
+        console.log(apodUrl);
         
         xhr = new XMLHttpRequest();
         xhr.onreadystatechange = findApi;
         xhr.open('GET',apodUrl);
         xhr.responseType = "json";
         xhr.send(null);
-
     }
 
 
