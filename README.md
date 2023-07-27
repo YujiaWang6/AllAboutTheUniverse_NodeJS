@@ -13,4 +13,10 @@ The third function allows users to explore basic information about the planets i
 
 ## Installation
 1. Clone the repository from GitHub: `git clone https://github.com/YujiaWang6/AllAboutTheUniverse_NodeJS.git`
-2. Change directory to the project folder: `cd all-about-the-universe`
+2. Change directory to the project folder: `cd AllAboutTheUniverse_NodeJS`
+3. Install the dependencies: `npm i`
+4. Run the Project: `npm run dev`
+5. Open the website on browser: `http://localhost:9999`
+
+## API lists
+1. NASA APOD API: `https://api.nasa.gov/`
