@@ -20,3 +20,6 @@ The third function allows users to explore basic information about the planets i
 
 ## API lists
 * [NASA APOD API](https://api.nasa.gov/)
+* [Where The ISS At?](https://wheretheiss.at/w/developer)
+* [Google Map Embed API](https://developers.google.com/maps/documentation/embed/get-started)
+* [The solar system open data](https://api.le-systeme-solaire.net/en/)
