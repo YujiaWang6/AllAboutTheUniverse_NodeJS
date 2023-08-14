@@ -1,6 +1,8 @@
 # All About The Universe
 Welcome to the "All About the Universe" project! This project aims to provide users with information about the planets, an introduction to the International Space Station (ISS), and a daily Astronomy Picture of the Day (APOD) from NASA.
 
+![All About The Universe](_readme/screenshot1.png)
+
 ## Functions
 ### Function 1: Astronomy Picture of the Day (APOD)
 The first function fetches the Astronomy Picture of the Day (APOD) from NASA's API. Users will be able to select the date and view stunning and captivating images of various astronomical phenomena taken by space telescopes, rovers, and other spacecraft.
